@@ -1,2 +1,2 @@
 # maglev-hardware
-Schematic and PCB for maglev projects
+KiCad schematic and PCB for maglev projects. See preview in `*.pdf` files.
