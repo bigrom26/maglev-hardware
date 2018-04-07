@@ -8,3 +8,6 @@ In terms of control systems' general theory there're 4 main components: object u
   - Controller: PID algorithm executed by the MCU (see [maglev-ti-rtos](https://github.com/ussserrr/maglev-ti-rtos))
   - Feedback: Hall sensor
 We specify setpoint (desired voltage depended on mutual arrangement of permanent and electro magnets) and get status of the process variable by Hall sensor (feedback value).
+
+## Notes
+Due to lack of some hardware solutions (such as H-bridge) this version of the device can only push and release permanent magnet and can't pull it.
